@@ -1,0 +1,46 @@
+package JavaKampiOdev3Hafta3.entities;
+
+public class BaseEntities {
+	private int id;
+	private String name;
+	
+	
+	public BaseEntities(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+
+	
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+}
